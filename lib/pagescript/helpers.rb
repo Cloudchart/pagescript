@@ -15,7 +15,7 @@ module PageScript
     end
     
     
-    def pagescript_params(params)
+    def pagescript_params(params = {})
       params = params.extract_options!
       
       @pagescript_params ||= {}
