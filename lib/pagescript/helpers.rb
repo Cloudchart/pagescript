@@ -16,8 +16,6 @@ module PageScript
     
     
     def pagescript_params(params = {})
-      params = params.extract_options!
-      
       @pagescript_params ||= {}
       
       params.each do |k, v|
